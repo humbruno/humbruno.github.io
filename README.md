@@ -1,3 +1,3 @@
-# humbruno.github.io
+# Bruno's Live GitHub Page
 
-## test
+To start out, I will be using this repository to publish my solutions to Frontend Mentor challenges!
