@@ -23,8 +23,8 @@ I love the Frontend Mentor challenges as they are a great way to help improve my
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution Markup](https://github.com/humbruno/humbruno.github.io/blob/1161209ec965cc87ea037b3ff8606e8efee3ab82/qrcode/index.html)
+- [Live Solution URL](https://humbruno.github.io/qrcode/index.html)
 
 ## My process
 
@@ -42,7 +42,7 @@ I knew from the get-go that using Flexbox would be a good way to center the obje
 
 After some researching, I found out that by applying a min-heigh of 100vh to the body could accomplish this (credits to Colt Steele!).
 
-Truth be told, I don't fully understand why this was possible by setting the min-heigh to 100vh and I definitely have put this down as a topic of research and if there are any other alternatives to accomplish this effect in a page that contains a single item center at the middle of the screen.
+Truth be told, I don't fully understand why this was possible by setting the min-height to 100vh and I definitely have put this down as a topic of research and if there are any other alternatives to accomplish this effect in a page that contains a single item center at the middle of the screen.
 
 This is the final code I ended up using on the body selector to align the card vertically and horizontally:
 
