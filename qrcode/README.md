@@ -23,8 +23,8 @@ I love the Frontend Mentor challenges as they are a great way to help improve my
 
 ### Links
 
-- Solution URL: [qrcode/index.html](qrcode/index.html)
-- Live Site URL: [https://humbruno.github.io/qrcode/index.html](https://humbruno.github.io/qrcode/index.html)
+- [Solution Markup](https://github.com/humbruno/humbruno.github.io/blob/1161209ec965cc87ea037b3ff8606e8efee3ab82/qrcode/index.html)
+- [Live Solution URL](https://humbruno.github.io/qrcode/index.html)
 
 ## My process
 
