@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://github.com/humbruno/humbruno.github.io/blob/d571fdef98bba9df398d9cef31f7dbbc5e0f1cce/nft-card/index.html)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
