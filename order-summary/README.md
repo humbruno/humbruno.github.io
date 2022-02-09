@@ -24,6 +24,8 @@ Users should be able to:
 
 ![](images/final-screenshot.png)
 
+[Live link](https://humbruno.github.io/order-summary/index.html)
+
 ## My process
 
 ### Built with
