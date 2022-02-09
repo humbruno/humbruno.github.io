@@ -20,11 +20,14 @@ html {
 }
 
 body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
   line-height: 1.3;
   min-height: 100vh;
-  background-color: var(--desaturatedBlue);
+  background-color: var(--paleBlue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +35,7 @@ body {
 
 .card {
   background-color: white;
-  max-width: 450px; /* temporary */
+  max-width: 28.125rem;
   border-radius: 1rem;
   text-align: center;
 }
@@ -51,7 +54,7 @@ body {
 }
 
 .summary__title {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 h1 {
@@ -75,8 +78,8 @@ h1 {
   justify-content: space-between;
   background-color: var(--veryPaleBlue);
   border-radius: 1rem;
-  margin: 20px 45px 0px 45px;
-  padding: 20px;
+  margin: 1.25rem 2.8125rem 0 2.8125rem;
+  padding: 1.25rem;
   font-size: 0.875rem;
 }
 
@@ -93,18 +96,18 @@ h2 {
 
 .plan__description {
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 0.9375rem;
 }
 
 .plan__description p {
   color: var(--desaturatedBlue);
-  padding-top: 3px;
+  padding-top: 0.1875rem;
 }
 
 .plan__change {
   color: var(--brightBlue);
   text-decoration: underline;
-  transition: all 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
 }
 
 .plan__change p:hover {
@@ -116,12 +119,12 @@ h2 {
   background-color: var(--brightBlue);
   color: white;
   border-radius: 0.6rem;
-  margin: 30px 45px 0px 45px;
-  padding: 12px 20px;
+  margin: 1.875rem 2.8125rem 0 2.8125rem;
+  padding: 0.75rem 1.25rem;
   font-size: 0.875rem;
   font-weight: 700;
-  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.1);
-  transition: all 250ms ease-in-out;
+  box-shadow: 0px 1.25rem 0.9375rem rgba(0, 0, 0, 0.1);
+  transition: opacity 250ms ease-in-out;
 }
 
 .order__payment:hover {
@@ -133,11 +136,44 @@ h2 {
   font-size: 0.875rem;
   font-weight: 700;
   color: var(--desaturatedBlue);
-  margin: 30px 0px 45px 0;
-  transition: all 250ms ease-in-out;
+  margin: 1.875rem 0 2.8125rem 0;
+  transition: color 250ms ease-in-out;
 }
 
 .order__cancel:hover {
   cursor: pointer;
   color: var(--darkBlue);
+}
+
+@media (max-width: 48rem) {
+  body {
+    background: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--paleBlue);
+  }
+
+  .card {
+    max-width: 23.4375rem;
+  }
+
+  .hero__image > img {
+    max-width: 23.4375rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .card,
+  .hero__image > img {
+    max-width: 18.75rem;
+  }
+
+  .summary__description {
+    font-size: 0.75rem;
+  }
+
+  .plan,
+  .plan h2 {
+    font-size: 0.625rem;
+  }
 }
