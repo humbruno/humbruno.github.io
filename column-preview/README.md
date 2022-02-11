@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/humbruno/humbruno.github.io/blob/8de10c33d008e1ef73d7971630fae5de3944715e/column-preview/index.html)
-- [Live Site URL](https://humbruno.github.io/column-preview/index.html
+- [Live Site URL](https://humbruno.github.io/column-preview/index.html)
 
 ## My process
 
