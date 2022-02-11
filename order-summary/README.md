@@ -45,4 +45,4 @@ My biggest struggle was with the background, as when scaling the the viewport up
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/humbruno)
+- Frontend Mentor - [@humbruno](https://www.frontendmentor.io/profile/humbruno)

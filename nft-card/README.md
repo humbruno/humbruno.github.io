@@ -50,4 +50,4 @@ This challenge also thought me about the importance of planning out the project 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/humbruno)
+- Frontend Mentor - [@humbruno](https://www.frontendmentor.io/profile/humbruno)
