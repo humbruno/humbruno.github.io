@@ -33,8 +33,8 @@ body {
 .container {
   margin: 50px 0;
   display: flex;
-  flex-direction: column; /* ROW FOR DESKTOP */
-  max-width: 320px; /* MOVE TO MEDIA QUERY? */
+  flex-direction: column;
+  max-width: 320px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -86,7 +86,6 @@ body {
   border: 2px solid var(--transparentWhite);
   transition: background-color 250ms ease-in-out;
   font-size: 13px;
-  font-weight: 700;
 }
 
 .learn-more button:hover {
@@ -109,7 +108,7 @@ body {
 
 @media (min-width: 800px) {
   .container {
-    flex-direction: row; /* ROW FOR DESKTOP */
+    flex-direction: row;
     max-width: 920px;
   }
 
