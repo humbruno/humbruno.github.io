@@ -31,6 +31,7 @@ body {
 }
 
 .container {
+  margin: 50px 0;
   display: flex;
   flex-direction: column; /* ROW FOR DESKTOP */
   max-width: 320px; /* MOVE TO MEDIA QUERY? */
@@ -56,9 +57,6 @@ body {
   background-color: var(--veryDarkCyan);
 }
 
-.card__content {
-}
-
 .car__type {
   font-family: "Big Shoulders Display", cursive;
   font-size: 35px;
@@ -72,7 +70,8 @@ body {
 }
 
 .car__description {
-  margin-top: 40px;
+  margin-top: 25px;
+  line-height: 1.7;
 }
 
 .learn-more {
@@ -83,14 +82,46 @@ body {
 .learn-more button {
   box-sizing: border-box;
   border-radius: 2em;
-  padding: 15px 35px;
-  border: 1px solid white;
-  color: var(--brightOrange);
+  padding: 13px 35px;
+  border: 2px solid var(--transparentWhite);
   transition: background-color 250ms ease-in-out;
   font-size: 13px;
+  font-weight: 700;
 }
 
 .learn-more button:hover {
-  background-color: var(--brightOrange);
+  background-color: transparent;
   color: var(--transparentWhite);
+  cursor: pointer;
+}
+
+.card--sedans button {
+  color: var(--brightOrange);
+}
+
+.card--suvs button {
+  color: var(--darkCyan);
+}
+
+.card--luxury button {
+  color: var(--veryDarkCyan);
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row; /* ROW FOR DESKTOP */
+    max-width: 920px;
+  }
+
+  .card {
+    padding: 50px;
+  }
+
+  .learn-more {
+    margin-top: 85px;
+  }
+
+  .car__description {
+    padding-right: 13px;
+  }
 }
