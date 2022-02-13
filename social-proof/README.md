@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/humbruno/humbruno.github.io/blob/6979206ee919e3b3864f0737e52101fa59e24ec4/social-proof/index.html)
+- [Live Site URL](https://humbruno.github.io/social-proof/index.html)
 
 ## My process
 
