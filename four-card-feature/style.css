@@ -79,6 +79,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-top: 4.375rem; /* 70px */
+  background-color: white;
 }
 
 .features__card p {
