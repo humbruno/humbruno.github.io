@@ -43,7 +43,7 @@ Users should be able to:
 
 Great project to help me plan out the layout and HTML structure ahead of styling anything, as it saved a lot of time in debugging why things are looking the way they're supposed to.
 
-My approach as the create 3 divs which acted as columns on desktop, so that I could layout the cards in the way that they are, but I can't help but feel that there must but a different aproach to this that allows for more scalability in terms of number of cards.
+My approach was to create 3 divs which acted as columns on desktop, so that I could layout the cards in the way that they are, but I can't help but feel that there must but a different aproach to this that allows for more scalability in terms of number of cards.
 
 It also limited the tablet layout, as I initially wanted to display 2 cards per row, but this column layout didn't allow for it.
 
